@@ -1,0 +1,193 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-item {
+    padding: 0 15px;
+}
+
+.nav-link {
+    color: #333;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+/* Specific Styles */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+button {
+    padding: 14px 28px;
+    border-radius: 30px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+.comment {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    animation: fadeInComment 0.5s ease-in-out;
+}
+
+@keyframes fadeInComment {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Additional Styles for Hubungi Kami Page */
+.center-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item {
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.icon {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Additional Styles for Article */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+article {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 40px;
+}
+
+p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer p.copyright {
+    color: #fff;
+    text-align: center;
+}
+/* Style untuk gambar artikel */
+.article-image {
+    width: 100%; /* Mengisi lebar maksimum konten */
+    height: auto; /* Mengatur tinggi agar sesuai proporsi */
+    margin-bottom: 20px; /* Menambahkan jarak antara gambar dan teks */
+}
+
